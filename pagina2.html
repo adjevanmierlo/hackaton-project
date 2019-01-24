@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Page Title</title>
+    <link href ="pagina2.css" rel="stylesheet" type="text/css">
+    <link href ="pagina1.css" rel="stylesheet" type="text/css">
+    <script src="pagina2.js"></script> 
+	</head>
+      <body>
+          <div class='container'>
+          <div class="header">
+              <h1><a href="https://www.coa.nl/sites/www.coa.nl/themes/coa_bs/logo.png"></a></h1>
+        </div>
+        <div class="navbar">
+        <a href="pagina1.html">Home</a>
+        <a href="pagina2.html">Sfeer Impressie</a>
+        <a href="pagina3.html">studie</a>
+      <div class="dropdown">
+          <button class="dropbtn">Contact 
+          <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+          <a href="pagina4.html">Agenda</a>
+          <a href="pagina5.html">Aanmelden</a>
+          </div>
+        </div> 
+        </div>
+<div class="w3-container">
+  </div>
+<div class="w3-content w3-section" style="max-width:100%">
+  <img class="mySlides w3-animate-center" src="https://i.imgur.com/bQXw5xb.jpg" style="width:100%">
+  <img class="mySlides w3-animate-center" src="https://i.imgur.com/0yPPmOe.jpg" style="width:100%">
+  <img class="mySlides w3-animate-center" src="https://i.imgur.com/8CLuTMw.jpg" style="width:100%">
+  <img class="mySlides w3-animate-center" src="https://i.imgur.com/q727QnF.jpg" style="width:100%">
+  <img class="mySlides w3-animate-center" src="https://i.imgur.com/KwLfsT5.jpg" style="width:100%">
+  <img class="mySlides w3-animate-center" src="http://vubtoday.be/sites/default/files/articles/media/shutterstock_604294328.jpg" style="width:100%">
+  <img class="mySlides w3-animate-center" src="https://i.imgur.com/1FKdX6A.jpg" style="width:100%">
+</div>
+<div class="footer">
+    <p>Footer</p>
+  </div>
+  </div>
+	</body>
+</html>
+
+<script>
+    var myIndex = 1;
+    carousel();
+    
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2500);    
+    }
+    </script>

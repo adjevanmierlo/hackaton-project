@@ -1,0 +1,120 @@
+
+.container{
+    max-width:1000px;
+    margin:0px auto;
+}
+.header {
+    padding: 50px;
+    text-align: center;
+    background : url(https://i.imgur.com/r3tDrt1.png) no-repeat 0 0;
+    color: #ffffe6;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #cca300;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right :0
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #cca300;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+img.right { float: right; margin: 0.5em 0 1em 1em; border: hidden solid #999; clear: right; 
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.footer {
+    position: relative;
+    height: 45px;
+    left: 0;
+    bottom: 0;
+    width: 1000px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+
+div.a {
+    text-align: center;
+}
+
+div.b {
+    text-align: center;
+}
+
+div.c {
+    text-align: center;
+}
+
+div.d {
+    text-align: center;
+}
+
+div.e {
+    text-align: center;
+    }
+
